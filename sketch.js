@@ -1,13 +1,16 @@
 
 
-let img = []
-let x;
+let img;
+let img1;
+let img2;
+let img3;
+
 function setup() {
   createCanvas(windowWidth, windowHeight);
   img = loadImage('FLowers.jpg');
-  img[1] = loadImage('GEDC0072.JPG');
-  img[2] = loadImage('Foliage.jpg');
-  img[3] = loadImage('gift for mom.jpg');
+  img1 = loadImage('GEDC0072.JPG');
+  img2 = loadImage('Foliage.jpg');
+  img3 = loadImage('gift for mom.jpg');
 
 }
 
