@@ -19,7 +19,7 @@ function draw() {
   background(0, 255, 0);
   image(images[i], 0, 0);
 }
-function keyPressed() {
+function deviceShaken() {
   shakes++;
   if (shakes < minimumShakes) return;
 
