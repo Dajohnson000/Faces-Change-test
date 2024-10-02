@@ -5,7 +5,7 @@ let minimumShakes = 5;
 
 function preload() {
   images[0] = loadImage("assets/test 1.jpg");
-  images[1] = loadImage("assets/test 2.JPG");
+  images[1] = loadImage("assets/test 2.jpg");
   images[2] = loadImage("assets/test 3.png");
   images[3] = loadImage("assets/test 4.png");
 }
