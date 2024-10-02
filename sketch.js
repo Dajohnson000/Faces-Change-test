@@ -1,25 +1,21 @@
 
-
-let img;
-let img1;
-let img2;
-let img3;
-
+let images = []
+let i = 0
 function setup() {
   createCanvas(windowWidth, windowHeight);
-  img = loadImage('FLowers.jpg');
-  img1 = loadImage('GEDC0072.JPG');
-  img2 = loadImage('Foliage.jpg');
-  img3 = loadImage('gift for mom.jpg');
+  images[0] = loadImage('FLowers.jpg');
+  images[1] = loadImage('GEDC0072.JPG');
+  images[2] = loadImage('Foliage.jpg');
+  images[3] = loadImage('gift for mom.jpg');
 
 }
 
 
 function draw() {
   background(0, 255, 0);
-  image(img, 0, 0);
+  image(images[i], 0, 0);
 }
 function keyPressed(){
-(img ++)
-
+i = (i + 1) % 4
+console.log(i);
 }
