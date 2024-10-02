@@ -2,7 +2,6 @@ let images = [];
 let i = 0;
 let shakes = 0;
 let minimumShakes = 5;
-let recentlyShaken = false;
 
 function preload() {
   images[0] = loadImage("FLowers.jpg");
